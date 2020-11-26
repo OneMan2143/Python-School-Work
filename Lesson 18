@@ -1,10 +1,15 @@
-Marks = [16,92,84,69]  # Changed SET to Marks =
-Counter = 4  #Changed SET to Counter = 
+Marks = [16,92,84,69]   # Changed SET to Marks =
+Counter = 4   #Changed SET to Counter =
+
 while Counter < 1 and Counter > 0:
       for sort in range(3):
             if Marks [sort] > Marks [sort + 1]:
+                  #Switches the two indexes between one another.
                   switch = Marks [sort]
                   Marks [sort] = Marks [sort + 1]
                   Marks [sort + 1] = switch
             counter =- 1
+
+
+#This is only one pass and will output as that only.
 print (Marks)
